@@ -1,0 +1,18 @@
+
+/*总结
+  关于umi如何正确引入css文件
+  import styles from '../'
+  className={styles.属性}
+  不支持 这种写法 long-form 应该写成  login_form
+*/
+
+.login_form {
+  margin: 200px auto;
+  max-width: 300px;
+}
+.login_form_forgot {
+  float: right;
+}
+.login_form_button {
+  width: 100%;
+}
